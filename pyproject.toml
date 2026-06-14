@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transfertrace"
+version = "0.1.0"
+description = "A CLI tool for monitoring file transfer progress with a real-time progress bar."
+authors = [{name = "Axentx", email = "info@axentx.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/axentx/transfertrace"
+"Bug Tracker" = "https://github.com/axentx/transfertrace/issues"
